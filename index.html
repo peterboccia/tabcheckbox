@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tabbed Check Boxes - jQuery plugin to render checkbox</title>
+		<meta charset=utf-8>
+        <meta name="description" content="Tabbed Check Boxes" />
+        <meta name="keywords" content="jquery, checkbox, check, box, tab, simple, css"/>
+        <link rel="stylesheet" type="text/css" href="jquery.tabcheckbox.css" />
+    </head>
+    <body>
+	
+		<div>
+			<input type="checkbox" class="checkboxToTab" data-text="vola vola" />
+		</div>
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('.checkboxToTab').tabCheckBox();
+			});
+		</script>
+    </body>
+</html>
