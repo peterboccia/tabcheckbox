@@ -1,0 +1,39 @@
+input.checkboxToTab {
+	display: none;
+}
+span.tabbedCheckbox {
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 2px 4px;
+	margin-right: 6px;
+	
+	cursor: hand;
+	cursor: pointer;
+	
+	border-radius: .2em;
+	-webkit-box-shadow: 0 1px 2px rgba(160,160,160,1);
+	-moz-box-shadow: 0 1px 2px rgba(160,160,160,1);
+	
+	box-shadow: 0 1px 2px rgba(160,160,160,1);
+}
+span.tabbedCheckbox.active {
+	background: #99cc33;
+	color: #fff;
+	border: 1px #66aa00 solid;
+}
+span.tabbedCheckbox.active:hover {
+	background: #66aa00;
+	color: #fff;
+	border: 1px #338800 solid;
+}
+span.tabbedCheckbox.inactive {
+	background: #ddd;
+	color: #888;
+	border: 1px #bbb solid;
+}
+span.tabbedCheckbox.inactive:hover {
+	background: #bbb;
+	color: #fff;
+	border: 1px #888 solid;
+}
