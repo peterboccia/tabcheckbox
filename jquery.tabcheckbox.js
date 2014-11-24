@@ -6,7 +6,7 @@
 
 (function ($) {
 
-    $.tabComboBox = function (element, options) {
+    $.tabCheckBox = function (element, options) {
 
         var defaults = {
             activeClass: 'active',
@@ -63,11 +63,11 @@
         plugin.init();
     }
 
-    $.fn.tabComboBox = function (options) {
+    $.fn.tabCheckBox = function (options) {
         return this.each(function () {
-            if (undefined == $(this).data('tabComboBox')) {
-                var plugin = new $.tabComboBox(this, options);
-                $(this).data('tabComboBox', plugin);
+            if (undefined == $(this).data('tabCheckBox')) {
+                var plugin = new $.tabCheckBox(this, options);
+                $(this).data('tabCheckBox', plugin);
             }
         });
     }
