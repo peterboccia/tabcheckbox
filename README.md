@@ -1,4 +1,6 @@
-tabcheckbox
+Tabbed Check Box
 ===========
 
-Render checkbox as button with fancy UI
+With this jquery plugin, you can render checkbox as button with likeable graphics.
+
+It's really simple and really light-weight.
